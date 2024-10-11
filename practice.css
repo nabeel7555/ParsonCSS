@@ -1,0 +1,482 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    body{
+        background-color: #EFEFEF;
+    }
+    
+.container-1{
+   
+    background-color: #081D31;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 77px;
+    align-items: center;
+    
+}
+.group{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 36px;
+    padding: 0 15px;
+    
+}
+
+.group img{
+    width: 100%;
+    height: 100%;
+    margin: 0 10px;
+   
+}
+
+.list ul{
+    display:flex;
+    flex-direction:row;
+    list-style: none;
+    justify-content: space-evenly;
+    color: #C2C2C2;
+    font-size: 16PX; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100%;width: 600px;
+    margin-left: 80px;
+    align-items: center;
+    font-weight: lighter;
+    
+}
+
+
+.su ul{
+    
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 36px;
+    color: #C2C2C2;
+    list-style: none;
+    font-size: 14px;
+    margin-right: 100px;
+    justify-content: space-evenly;
+    align-items:flex-start;
+}
+.investors{
+    border-left: 1px solid white;
+    width: 80px;
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+}
+.poster{
+    position: relative;
+}
+.postera{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    text-align: center;
+    
+}
+.poster img{
+     width: 100%;
+     height:600px;
+     position: relative;
+     
+}
+.poster h1{
+    font-size: 70px;
+    
+    color: white;
+    width: 1170px;
+    display: flex;
+    /* text-align: center; */
+}
+.poster button{
+    font-size: 14px;
+    background-color: #081D31;
+    color: white;
+    width: 124px;
+    height: 42px;
+    
+    
+    border: 0cap;
+}
+.poster-2{
+    width: 100%;
+    height: 425px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: white;
+}
+.poster-2 img{
+    width:  500px ;
+    height: 100%;
+
+}
+.para{
+    width: 682px ;
+    height: 425px;
+    margin-top: 20px;
+}
+.poster-2 p{
+    font-size: 22px;
+    font-weight: lighter; 
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    width: 617px;
+    height: 202px;
+    text-align: start;
+}
+.poster-2 button{   
+    width: 200px;
+    height: 42px;
+    font-size: 14px;
+    background-color: #081D31;
+    color: white;
+    border: 0;
+}
+.poster-3{
+    width: 77.5%;
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    margin: 70px 170px;
+    margin-bottom: 0;
+}
+
+.poster-3 img{
+    width: 682px;
+    
+}
+.para-1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding-left: 25px;
+    
+}
+
+.poster-3 h2{
+    font-size: 32px;
+    font-weight: lighter;
+}
+.poster-3 p{
+    font-size: 16px;
+    margin-top: 15px;
+    font-weight: lighter;
+    line-height: 24px;
+    width: 437.5px;
+    height: 144px;
+    
+ }
+ .poster-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 77.5%;
+    margin: 30px 170px;
+
+    
+ }
+ .para-2a{
+    display: flex;
+    flex-direction: column;
+    width:487.5px;
+    height: 612px;
+ }
+ .para-2a img{
+    width: 487.5px;
+    height: 380px;
+    
+
+ }
+ .para-2a p{
+    font-size: 32px;
+    font-weight: lighter;
+    width: 487.5px;
+    height: 232px;
+    display: flex;
+    padding-left: 30px;
+    align-items: center;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+}
+.para-2b{
+    position: relative;
+}
+
+.para-2b p{
+    font-size:32px;
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 35px;
+    
+}
+.poster-5{
+    height:425px ;
+    position: relative;
+  
+}
+.para-3a img{
+    height: 425px;
+    width: 100%;
+    
+}
+.para-3b{
+    position: absolute;
+    top: 80px;
+    left: 145px;
+    width: 700px;
+    height: 245.6px;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.para-3b h3{
+    font-size: 52px;
+    font-family: "Roboto", sans-serif;
+    font-weight:300;
+}
+.para-3b p{
+    font-size: 27px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+
+}
+.para-3b button{
+    font-size: 14px;
+    background-color: #081D31;
+    color: white;
+    width: 124px;
+    height: 42px;
+    border: 0cap;
+}
+.poster-6{
+    width: 1170px;
+    height: 273px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px 200px;
+}
+footer{
+    background-color: #081D31;
+    height: 473.66px;
+}
+.lastdiv{
+    display: flex ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1170px;
+    height: 274px;
+    margin: 0 100px;
+    
+    
+}
+.footer-col{
+    height: 200px;
+    margin-top: 50px;
+
+}
+
+.footer-col ul{
+    margin-top: 15px;
+}
+.footer-col h3{
+    font-size: 18px;
+    color: #50BF33;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+.footer-col ul li{
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 35px;
+}
+@media (max-width: 500px){
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .container-1{
+       height: 100%;
+        width: 100%;
+    }
+    .group img{
+        width: 100px;
+    }
+    .list ul{
+        display: none;
+    }
+    .su ul{
+        display: none;
+    }
+    .container-2    {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .postera{
+        position: absolute;
+        top:200px;
+        left: 0;
+        width: auto;
+        
+    }
+    .postera h1{
+        font-size: 36px;
+        width: auto;
+    }
+    .postera button{
+        margin-top: 10px;
+    }
+    .poster{
+        margin-bottom: 0;
+    }
+    .poster-2{
+        width: 100%; height: auto;
+        display: flex;
+        flex-direction: column-reverse;
+       
+    }
+    .poster-2 img{
+        width: 100%;
+        margin-top: 0;
+
+    }
+    .para{
+        text-align:center;
+        width: 400px;height: 250px;
+        margin-top: 0;
+        margin-left: 50px;
+        
+    }
+    .para p{
+        font-size: 16px;
+        width:100%;
+        text-align:center;
+    }
+    .poster-3{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 40px 40px;
+        width: 85%;
+}
+.poster-3 img{
+    width: 100%;
+}
+.para-1{
+        padding-top: 50px;
+        padding-bottom: 15px;
+
+}
+.para-1 p{
+    width: auto;
+    height: auto;
+    
+}
+.poster-4{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    width: 85%;
+    margin-bottom: 0;
+}
+.para-2a{
+   width: 100%; height: auto;
+   
+}
+.para-2a img{
+    width: 100%;
+}
+.para-2a p{
+    width: auto;
+    height: 200px;
+    justify-content: end;
+    align-items: end;
+ 
+}
+
+.para-2b img{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 5px;
+    width: 100%;
+    height: 442px;
+}
+.poster-5 img{
+   width: 100%;
+   margin-top: 0;
+   
+}
+.para-3b{
+    width: auto;
+    height: auto;
+    top: 60px;
+    left: 10px;
+}
+.para-3b h3{
+    font-size: 36px;
+}
+.para-3b p{
+    font-size: 23px;
+}
+.poster-6{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+.poster-6 img{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+footer{
+    width: 100%;
+    height: 700px;
+    
+}
+.lastdiv{
+    width: 100%;
+    height: 700px;
+    border: 2px solid black;
+    margin: 0;
+    
+    border: 2px solid gold;
+    
+}
+.footer-col{
+    height: 213px;width: 235px;
+    margin-left: 30px;
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+
+}
